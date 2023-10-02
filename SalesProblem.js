@@ -1,16 +1,3 @@
-// const arrObject = [
-//     {"Product A": -75}, 
-//     {"Product B": -70}, 
-//     {"Product C": 93}, 
-//     {"Product D": 5}, 
-//     {"Product E": 88}, 
-//     {"Product F": 29}
-// ];
-
-// topProduct (arrObject);
-// bottomProduct (arrObject);
-// zeroProfitProduct (arrObject);
-
 //function uses sort and map of to iterate
 //through the array of object and generate the product with highest sales profit
 function topProduct (productProfitArray) {
@@ -25,7 +12,7 @@ function topProduct (productProfitArray) {
                 Object.values(a)[0] - Object.values(b)[0]).map(obj => Object.keys(obj)[0]);
 
         //display the last array value which has the greatest value
-        return sortedProductKey[sortedProductKey.length-1]
+        console.log(sortedProductKey[sortedProductKey.length-1]);
     }
 }
 
@@ -50,7 +37,7 @@ function bottomProduct (productProfitArray) {
         }
 
         //display the minimum key base on its value
-        return minProfitKey;
+        console.log(minProfitKey);
     }
 }
 
@@ -80,6 +67,6 @@ function zeroProfitProduct (productProfitArray) {
             }
         }
 
-        return closestKey;
+        console.log(closestKey);
     }
 }

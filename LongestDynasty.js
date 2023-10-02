@@ -1,18 +1,3 @@
-const dynastyReign = [
-    {"San Dynasty": "MXLI"},
-    {"Viloria Dynasty": "MCCCIIII"},
-    {"Tan Dynasty": "MCCCXCVIII"},
-    {"Bon Dynasty": "MCDXLV"},
-    {"Maiko Dynasty": "MDCLXIV"},
-    {"Paul Dynasty": "MCMXLIX"},
-    {"Andre Dynasty": "MMMXICX"},
-];
-
-const longest = longestdynasty(dynastyReign);
-console.log(longest);
-
-// longestdynasty(dynastyReign);
-
 function longestdynasty(dynastyReign) {
     if(dynastyReign.length === 0) {
         return "No Data";
@@ -45,7 +30,7 @@ function longestdynasty(dynastyReign) {
         });
         
         //return the name of the longest dynasty reign or return invalid if all data are invalid
-        return longest || "Invalid";
+        console.log(longest || "Invalid");
     }
 }
 
