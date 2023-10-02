@@ -3,7 +3,7 @@ const arrObject = [
     {"Product B": -70},
     {"Product C": 93},
     {"Product D": 5},
-    {"Product E": 88},
+    {"Product E": -88},
     {"Product F": 29}
 ];
 
