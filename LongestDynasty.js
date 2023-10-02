@@ -1,3 +1,15 @@
+const dynastyReign = [
+    {"San Dynasty": "MXLI"},
+    {"Viloria Dynasty": "MCCCIIII"},
+    {"Tan Dynasty": "MCCCXCVIII"},
+    {"Bon Dynasty": "MCDXLV"},
+    {"Maiko Dynasty": "MDCLXIV"},
+    {"Paul Dynasty": "MCMXLIX"},
+    {"Andre Dynasty": "MMMXICX"}
+];
+
+longestdynasty(dynastyReign);
+
 function longestdynasty(dynastyReign) {
     if(dynastyReign.length === 0) {
         return "No Data";

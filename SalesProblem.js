@@ -1,3 +1,16 @@
+const arrObject = [
+    {"Product A": -75},
+    {"Product B": -70},
+    {"Product C": 93},
+    {"Product D": 5},
+    {"Product E": 88},
+    {"Product F": 29}
+];
+
+topProduct (arrObject);
+bottomProduct (arrObject);
+zeroProfitProduct (arrObject);
+
 //function uses sort and map of to iterate
 //through the array of object and generate the product with highest sales profit
 function topProduct (productProfitArray) {
